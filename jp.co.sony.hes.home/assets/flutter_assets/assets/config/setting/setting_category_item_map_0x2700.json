@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "id": "bluetooth_settings",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_HD_BT_SETTINGS",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "bluetooth_setting.connection_quality",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupBTConnectQuality",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_RX_CODEC",
+          "desc_res_id": "",
+          "candidate_title_res_ids": {
+            "sound_quality": "IDMR_TEXT_CODEC_SOUND_QUALITY",
+            "stable_connection": "IDMR_TEXT_CODEC_CONNECTION_AUTO"
+          },
+          "candidate_desc_res_ids": {
+            "sound_quality": "STRING_TEXT_CODEC_CONNECTION_AUTO_GUIDE",
+            "stable_connection": "STRING_TEXT_SOUND_QUALITY_GUIDE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general_settings",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_COMMON_SETINIFMTMAIN_STRING",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "system_setting.auto_standby",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_SETUP_XMB2_AUTOPOWEROFF_STRING",
+          "desc_res_id": "STRING_TEXT_AUTOPOWEROFF_GUIDE"
+        },
+        {
+          "id": "system_setting.bt_standby",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_BTSTANDBY",
+          "desc_res_id": "STRING_TEXT_SETUP_NWSTANDBYGUIDE_GUIDE"
+        },
+        {
+          "id": "system_setting.operation_notification",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_BODY_OPERATION_SOUND",
+          "desc_res_id": ""
+        },
+        {
+          "id": "system_setting.dimmer",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupDimmer",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SETUP_DIMMER",
+          "desc_res_id": "",
+          "candidate_title_res_ids": {
+            "bright": "STRING_TEXT_BRIGHT",
+            "dark": "STRING_TEXT_DARK",
+            "off": "STRING_TEXT_LIGHTS_OFF"
+          }
+        },
+        {
+          "id": "system_info",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SYSTEM_INFO",
+          "desc_res_id": ""
+        }
+      ]
+    },
+    {
+      "id": "fw_update.progress",
+      "ui_type": "custom",
+      "icon_res_id": "",
+      "title_res_id": "STRING_UPDATE_TITLE",
+      "desc_res_id": ""
+    },
+    {
+      "id": "tutorial",
+      "ui_type": "custom",
+      "icon_res_id": "",
+      "title_res_id": "STRING_TEXT_TUTORIAL",
+      "desc_res_id": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "contents": [
+    {
+      "layout_type": "swipe_custom1",
+      "title_id": "STRING_PREPARE_ASSEMBLE",
+      "sub_title_id": "STRING_PREPARE_ASSEMBLE_DESCRIPTION",
+      "object1_title_id": "STRING_THINGS_TO_PREPARE",
+      "object2_title_id": "STRING_ATTACHMENT",
+      "object1_image_file_name": "parts_avconnection_mount_stand_step_screwdriver_image_0x2500.png",
+      "object2_image_file_name": "parts_avconnection_mount_stand_step_accessories_image_0x2500.png"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_TEMPORARILY_ASSEMBLE",
+      "sub_title_id": "STRING_TEMPORARILY_ASSEMBLE_DESCRIPTION",
+      "video_file_name": "parts_avconnection_mount_stand_step_temporarily_assemble_animation_0x2500.mp4"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_CONNECT_POWER_CODE",
+      "sub_title_id": "STRING_CONNECT_POWER_CODE_DESCRIPTION",
+      "video_file_name": "parts_avconnection_mount_stand_step_connect_power_code_animation_0x2500.mp4"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_FIX_POWER_CODE",
+      "sub_title_id": "STRING_FIX_POWER_CODE_DESCRIPTION",
+      "video_file_name": "parts_avconnection_mount_stand_step_fix_power_code_animation_0x2500.mp4"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_FIT_STAND_TO_SPK",
+      "sub_title_id": "STRING_FIT_STAND_TO_SPK_DESCRIPTION",
+      "video_file_name": "parts_avconnection_mount_stand_step_fit_stand_animation_0x2500.mp4"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_FIX_STAND_TO_SPK",
+      "sub_title_id": "STRING_FIX_STAND_TO_SPK_DESCRIPTION",
+      "video_file_name": "parts_avconnection_mount_stand_step_fix_stand_animation_0x2500.mp4"
+    }
+  ]
+}

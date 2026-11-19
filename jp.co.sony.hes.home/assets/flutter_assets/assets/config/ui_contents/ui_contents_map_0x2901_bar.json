@@ -1,0 +1,26 @@
+{
+  "contents": [
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_BAR_CHECK_POSITION_CARD",
+      "sub_title_id": "STRING_INSTALL_BAR_CHECK_POSITION_DESCRIPTION",
+      "object1_image_file_name": "parts_avconnection_center_position_guide_image_0x2901.png",
+      "should_change_semantics_label": false
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_BAR_HINT_PLACE_SPK_IN_FRONT_TV",
+      "sub_title_id": "STRING_INSTALL_BAR_HINT_PLACE_SPK_IN_FRONT_TV_DESCRIPTION",
+      "object1_image_file_name": "parts_avconnection_infront_position_guide_image_0x2901.png",
+      "should_change_semantics_label": false
+    },
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_REAR_CONNECT_BAR_SW",
+      "sub_title_id": "STRING_INSTALL_REAR_CONNECT_BAR_SW_DESCRIPTION",
+      "object7_image_file_name": "parts_background_avconnection_installguide_connection_back_side_bar_sw_0x2901.png",
+      "object8_image_file_name": "parts_background_avconnection_installguide_frontspeakers_connection_0x2901.png",
+      "should_change_semantics_label": false
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+	"data": {
+		"anchor_num": 4,
+		"receiver_num": 1,
+		"tracker_num": 1,
+		"tracker": [
+			{
+				"tracker_id": 0,
+				"mode": 2,
+				"toa_link": [
+					{
+						"anchor_id": 0,
+						"receiver_id": 0
+					},
+					{
+						"anchor_id": 1,
+						"receiver_id": 0
+					},
+					{
+						"anchor_id": 2,
+						"receiver_id": 0
+					},
+					{
+						"anchor_id": 3,
+						"receiver_id": 0
+					}
+				]
+			}
+		],
+		"anchor": [
+			{
+				"object_info": {
+					"id": 0,
+					"root_id": -1,
+					"position": {
+						"x": 0.81,
+						"y": 0,
+						"z": 0
+					},
+					"quaternion": {
+						"x": 0,
+						"y": 0,
+						"z": 0,
+						"w": 1
+					}
+				},
+				"signal_info": {
+					"fs": 44100,
+					"temperature": 25
+				},
+				"code_generation_param": {
+					"fs": 44100,
+					"code_length": 511,
+					"code_fdm_num": 8,
+					"code_fdm_id": 0,
+					"cut_low_f": 16000,
+					"cut_high_f": 22000,
+					"sample_num": 1,
+					"use_over_nyquist": true,
+					"filename": ""
+				}
+			},
+			{
+				"object_info": {
+					"id": 1,
+					"root_id": -1,
+					"position": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"quaternion": {
+						"x": 0,
+						"y": 0,
+						"z": 0,
+						"w": 1
+					}
+				},
+				"signal_info": {
+					"fs": 44100,
+					"temperature": 25
+				},
+				"code_generation_param": {
+					"fs": 44100,
+					"code_length": 511,
+					"code_fdm_num": 8,
+					"code_fdm_id": 1,
+					"cut_low_f": 16000,
+					"cut_high_f": 22000,
+					"sample_num": 1,
+					"use_over_nyquist": true,
+					"filename": ""
+				}
+			},
+			{
+				"object_info": {
+					"id": 2,
+					"root_id": -1,
+					"position": {
+						"x": 2.91,
+						"y": 6.5,
+						"z": 0.7
+					},
+					"quaternion": {
+						"x": 0,
+						"y": 0,
+						"z": 0,
+						"w": 1
+					}
+				},
+				"signal_info": {
+					"fs": 44100,
+					"temperature": 25
+				},
+				"code_generation_param": {
+					"fs": 44100,
+					"code_length": 511,
+					"code_fdm_num": 8,
+					"code_fdm_id": 2,
+					"cut_low_f": 16000,
+					"cut_high_f": 22000,
+					"sample_num": 1,
+					"use_over_nyquist": true,
+					"filename": ""
+				}
+			},
+			{
+				"object_info": {
+					"id": 3,
+					"root_id": -1,
+					"position": {
+						"x": -2.09,
+						"y": 6.5,
+						"z": 0.7
+					},
+					"quaternion": {
+						"x": 0,
+						"y": 0,
+						"z": 0,
+						"w": 1
+					}
+				},
+				"signal_info": {
+					"fs": 44100,
+					"temperature": 25
+				},
+				"code_generation_param": {
+					"fs": 44100,
+					"code_length": 511,
+					"code_fdm_num": 8,
+					"code_fdm_id": 3,
+					"cut_low_f": 16000,
+					"cut_high_f": 22000,
+					"sample_num": 1,
+					"use_over_nyquist": true,
+					"filename": ""
+				}
+			}
+		],
+		"receiver": [
+			{
+				"object_info": {
+					"id": 0,
+					"root_id": 0,
+					"position": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"quaternion": {
+						"x": 0,
+						"y": 0,
+						"z": 0,
+						"w": 1
+					}
+				}
+			}
+		]
+	},
+	"logic": {
+		"maxlist_search_candidate_peaks_points": 30,
+		"maxlist_search_common_peak_range": 5,
+		"zscore_search_moving_average": 5,
+		"zscore_search_threshold_floor_rate": 0.2,
+		"zscore_search_offset_length": 100,
+		"zscore_search_threshold": 5,
+		"zscore_search_influence": 0.0,
+		"increment_meter": 0.25,
+		"max_ceiling_height": 5,
+		"threshold_SN": 4.5,
+		"threshold_use_frontspeaker_only": 0,
+		"dim": 3,
+		"optimize_rate": 0.005,
+		"maximize_loop_num": 5000,
+		"eps": 0.001,
+		"model_data": []
+	},
+	"sys": {
+		"multi_proc": true,
+		"inference_num": 6,
+		"search_velocity_range": 0.2,
+		"search_velocity_step": 0.1
+	}
+}

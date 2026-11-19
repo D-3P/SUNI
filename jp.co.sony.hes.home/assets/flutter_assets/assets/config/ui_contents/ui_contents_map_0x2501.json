@@ -1,0 +1,65 @@
+{
+  "contents": [
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_FRONT_CHECK_LEFT_RIGHT",
+      "sub_title_id": "STRING_INSTALL_FRONT_CHECK_LEFT_RIGHT_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_roleconfirm_front_0x2501.png",
+      "subtitle_talkback_id": "STRING_TALKBACK_INSTALL_FRONT_CHECK_LEFT_RIGHT_DESCRIPTION"
+    },
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_FRONT_CORRECT_PLACEMENT",
+      "sub_title_id": "STRING_INSTALL_FRONT_FRONT_VIEWING_POSITION",
+      "object1_image_file_name": [
+        {
+          "model_ids": ["0x2501"],
+          "file_name": "parts_background_avconnection_installguide_living_0x2501.png"
+        }
+      ],
+      "object6_image_file_name": "parts_background_avconnection_installguide_front_label_square.png",
+      "front_left_speaker_talkback_ids": [
+        "STRING_NAME_FRONTSPK_LEFT",
+        "STRING_TALKBACK_POSITION_LEFT_FRONT_SIDE"
+      ],
+      "front_right_speaker_talkback_ids": [
+        "STRING_NAME_FRONTSPK_RIGHT",
+        "STRING_TALKBACK_POSITION_RIGHT_FRONT_SIDE"
+      ]
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_ENSPK_INSTALLATION_PRECAUTIONS",
+      "sub_title_id": "STRING_INSTALL_FRONT_EN_OUTPUT_SOUND",
+      "object1_image_file_name": "parts_avconnection_placement_note_image_0x2501.png",
+      "should_change_semantics_label": false
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_INSTALL_FRONT_CONNECT_POWERCODE",
+      "sub_title_id": "STRING_INSTALL_INSERTION_PORT_BOTTOM",
+      "video_file_name": "parts_background_avconnection_installguide_front_powercode_connection_0x2501.mp4",
+      "subtitle_talkback_id": "STRING_TALKBACK_INSERTION_PORT_BOTTOM_RECESS_SIDE"
+    },
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_ORIENTATION_HINT",
+      "sub_title_id": "STRING_INSTALL_FRONT_ORIENTATION_HINT_DESCRIPTION",
+      "object1_image_file_name": [
+        {
+          "model_ids": ["0x2501"],
+          "file_name": "parts_background_avconnection_installguide_living_0x2501.png"
+        }
+      ],
+      "object5_image_file_name": "parts_background_avconnection_installguide_center_front_wave.png",
+      "should_change_semantics_label": false
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_REAR_HEIGHT_HINT",
+      "sub_title_id": "STRING_INSTALL_FRONT_HEIGHT_HINT_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_installation_height_0x2501.png",
+      "should_change_semantics_label": false
+    }
+  ]
+}

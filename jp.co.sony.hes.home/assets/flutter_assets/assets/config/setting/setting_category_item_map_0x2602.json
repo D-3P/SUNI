@@ -1,0 +1,478 @@
+{
+  "items": [
+    {
+      "id": "wireless_speaker_connection_settings",
+      "ui_type": "custom",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_SETUP_WRLSSPK_SETTING_STRING",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "speaker_connection_setting.connection_status.sw",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "",
+          "desc_res_id": ""
+        },
+        {
+          "id": "speaker_connection_setting.connection_history.sw",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_WRLSSPK_CONNECT",
+          "desc_res_id": ""
+        },
+        {
+          "id": "speaker_connection_setting.wireless_frequency_band",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_WIRELESS_CHANNEL_SETTING",
+          "desc_res_id": "STRING_TEXT_WIRELESS_CHANNEL_SETTING_GUIDE"
+        },
+        {
+          "id": "speaker_connection_setting.connection_quality",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupWirelessSPKPlayQuality",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_LDAC_QUALITY",
+          "desc_res_id": "IDMR_TEXT_WSM_QUALITY_GUIDE",
+          "candidate_title_res_ids": {
+            "sound_quality": "IDMR_TEXT_CODEC_SOUND_QUALITY",
+            "stable_connection": "IDMR_TEXT_CODEC_CONNECTION_AUTO"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sound_settings",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_SETUP_RESET_SOUND_STRING",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "sound_setting.sound_field",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SOUNDFIELD_OPTIMIZATION",
+          "desc_res_id": "STRING_TEXT_SOUNDFIELD_OPTIMIZATION_GUIDE"
+        },
+        {
+          "id": "sound_setting.sound_effect",
+          "ui_type": "enum_dialog",
+          "actionlog_dialog_id": "setupSoundField",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_SETUP_SOUND_FIELD_STRING",
+          "desc_res_id": "STRING_TEXT_STR_SETUP_SOUND_FIELD_GUIDE",
+          "candidate_title_res_ids": {
+            "360SSM": "STRING_TEXT_360SSP",
+            "Dolby Speaker Virtualizer": "IDMR_TEXT_DOLBY_SPEAKER_VIRTUALIZER_STRING",
+            "Neural:X": "STRING_TEXT_DTS_NEURALX"
+          },
+          "candidate_desc_res_ids": {
+            "360SSM": "STRING_TEXT_360SSP_GUIDE",
+            "Dolby Speaker Virtualizer": "STRING_TEXT_DOLBY_GUIDE",
+            "Neural:X": "STRING_TEXT_DTS_NEURALX_GUIDE"
+          }
+        },
+        {
+          "id": "speaker_sound_setting.360ssm_height",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SOUNDFIELD_HEIGHTADJUST",
+          "desc_res_id": "STRING_TEXT_SOUNDFIELD_HEIGHTADJUST_GUIDE"
+        },
+        {
+          "id": "sound_setting.imax_enhanced",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_IMAX_ENHANCED_MODE",
+          "desc_res_id": "STRING_TEXT_IMAX_ENHANCED_MODE_GUIDE"
+        },
+        {
+          "id": "acoustic_center",
+          "ui_type": "directory",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_ACOUSTIC_CENTER_SYNC",
+          "desc_res_id": "STRING_TEXT_ACOUSTIC_CENTER_SYNC_GUIDE",
+          "children": [
+            {
+              "id": "speaker_sound_setting.center_speaker_mode",
+              "ui_type": "custom",
+              "icon_res_id": "",
+              "title_res_id": "STRING_TEXT_ACOUSTIC_CENTER_SYNC",
+              "desc_res_id": "STRING_TEXT_ACOUSTIC_CENTER_SYNC_GUIDE"
+            },
+            {
+              "id": "speaker_sound_setting.center_speaker_distance",
+              "ui_type": "custom",
+              "icon_res_id": "",
+              "title_res_id": "STRING_TEXT_UNITPOS_TO_TV",
+              "desc_res_id": "STRING_TEXT_UNITPOS_TO_TV_GUIDE"
+            }
+          ]
+        },
+        {
+          "id": "testtone_settings",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_CHECK_SOUND_OUTPUT",
+          "desc_res_id": "",
+          "children": [
+            {
+              "id": "speaker_sound_setting.testtone_user_focus",
+              "ui_type": "custom",
+              "icon_res_id": "",
+              "title_res_id": "IDMR_TEXT_SETUP_TESTTONE_STRING",
+              "desc_res_id": "STRING_TEXT_SPEAKER_OUTPUT_GUIDE"
+            },
+            {
+              "id": "speaker_sound_setting.testtone_playback_focus",
+              "ui_type": "custom",
+              "icon_res_id": "",
+              "title_res_id": "STRING_TEXT_DEMO_SOUND",
+              "desc_res_id": "STRING_TEXT_DEMO_SOUND_GUIDE"
+            }
+          ]
+        },
+        {
+          "id": "sound_setting.dsee_ultimate",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SETUP_DSEE_Ultimate",
+          "desc_res_id": "STRING_TEXT_SETUP_GUIDE_DSEE_Ultimate"
+        },
+        {
+          "id": "sound_setting.drc",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupAudioDRC",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_SETUP_XMB2_DVDAUDRC_STRING",
+          "desc_res_id": "STRING_TEXT_SETUP_DVDAUDRC_GUIDE",
+          "candidate_title_res_ids": {
+            "auto": "STRING_TEXT_COMMON_SETTINGS_AUTO",
+            "on": "STRING_TEXT_COMMON_ON",
+            "off": "STRING_TEXT_COMMON_OFF"
+          },
+          "candidate_desc_res_ids": {
+            "auto": "STRING_TEXT_COMMON_AUTO_GUIDE"
+          }
+        },
+        {
+          "id": "sound_setting.dts_dialog_control",
+          "ui_type": "slider",
+          "actionlog_dialog_id": "setupDTS",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_STR_DIALOG_CONTROL",
+          "desc_res_id": "STRING_TEXT_SETUP_STR_DIALOG_CONTROL_GUIDE",
+          "unit_res_id": "IDMR_TEXT_SETUP_DB_STRING",
+          "dialog_desc_res_id": "STRING_TEXT_STR_DIALOG_CONTROL_GUIDE",
+          "units_under_slider_res_id": "STRING_TEXT_DTS_SLIDER_UNIT"
+        },
+        {
+          "id": "av_sync_auto",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SETUP_AVSYNC",
+          "desc_res_id": "STRING_TEXT_SETUP_AVSYNC_GUIDE",
+          "children": [
+            {
+                "id": "sound_setting.av_sync.arc.section",
+                "ui_type": "custom",
+                "icon_res_id": "parts_icon_small_tv.png",
+                "title_res_id": "STRING_REMOTE_KEY_TV_WW",
+                "desc_res_id": ""
+            },
+            {
+                "id": "sound_setting.av_sync.arc",
+                "ui_type": "custom",
+                "icon_res_id": "",
+                "title_res_id": "STRING_AVSYNC_MANUAL",
+                "desc_res_id": ""
+            },
+            {
+                "id": "sound_setting.av_sync.hdmi.section",
+                "ui_type": "custom",
+                "icon_res_id": "parts_icon_small_hdmi.png",
+                "title_res_id": "STRING_TEXT_HDMI",
+                "desc_res_id": ""
+            },
+            {
+                "id": "sound_setting.av_sync.hdmi_auto",
+                "ui_type": "custom",
+                "icon_res_id": "",
+                "title_res_id": "STRING_AVSYNC_AUTO",
+                "desc_res_id": "STRING_TEXT_AVSYNC_AUTO_GUIDE"
+            },
+            {
+                "id": "sound_setting.av_sync.hdmi_0",
+                "ui_type": "custom",
+                "icon_res_id": "",
+                "title_res_id": "STRING_AVSYNC_MANUAL",
+                "desc_res_id": ""
+            }
+          ]
+        },
+        {
+          "id": "sound_setting.auto_volume",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SETUP_ADVANCED_AUTO_VOLUME",
+          "desc_res_id": "STRING_TEXT_SETUP_ADVANCED_AUTO_VOLUME_GUIDE"
+        },
+        {
+          "id": "speaker_sound_setting.sw_phase",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_SW_PHASE_SETTING",
+          "desc_res_id": ""
+        }
+      ]
+    },
+    {
+      "id": "hdmi_settings",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_BDV_SETUP_HDMI_STRING",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "system_setting.cec",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_SETUP_XMB2_HDMICONTROL_STRING",
+          "desc_res_id": "STRING_TEXT_SETUP_HDMICONTROL_GUIDE"
+        },
+        {
+          "id": "system_setting.cec_power_off_sync",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupStandbyInterlocking",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_TV_POWER_OFF_INTERLOCK",
+          "desc_res_id": "",
+          "candidate_title_res_ids": {
+            "auto": "STRING_TEXT_COMMON_SETTINGS_AUTO",
+            "on": "STRING_TEXT_COMMON_VALID",
+            "off": "STRING_TEXT_COMMON_INVALID"
+          },
+          "candidate_desc_res_ids": {
+            "auto": "STRING_TEXT_POWER_OFF_INTERLOCK_AUTO_GUIDE"
+          }
+        },
+        {
+          "id": "system_setting.hdmi_standby_through",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupStandbyThrough",
+          "icon_res_id": "",
+          "title_res_id": "STRING_SIGNAL_PASS_THROUGH",
+          "desc_res_id": "STRING_TEXT_STANDBY_THROUGH_GUIDE",
+          "candidate_title_res_ids": {
+            "auto": "STRING_TEXT_COMMON_SETTINGS_AUTO",
+            "on": "STRING_TEXT_COMMON_ON",
+            "off": "STRING_TEXT_COMMON_OFF"
+          },
+          "candidate_desc_res_ids": {
+            "auto": "STRING_TEXT_SETTINGS_HDMIAUTO_GUIDE"
+          }
+        },
+        {
+          "id": "system_setting.earc",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_COMMON_E_ARC_STRING",
+          "desc_res_id": "STRING_TEXT_COMMON_E_ARC_GUIDE"
+        },
+        {
+          "id": "system_setting.hdmi_signal_format",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupHDMIIN",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SETUP_SIGNAL_FORMAT",
+          "desc_res_id": "STRING_TEXT_SIGNAL_FORMAT_GUIDE",
+          "dialog_desc_res_id": "STRING_TEXT_HDMIFORMAT_DIALOGUE_GUIDE",
+          "candidate_title_res_ids": {
+            "enhanced_4k120_8k": "STRING_TEXT_HDMI_ENHANCED_FORMAT_8K",
+            "enhanced": "STRING_TEXT_HDMI_ENHANCED_FORMAT",
+            "standard": "STRING_TEXT_HDMIFORMAT_STANDARD"
+          }
+        },
+        {
+          "id": "system_setting.video_output_for_pip_pbp_displayed_tv",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_TV_DUAL_SCREEN_DISPLAY",
+          "desc_res_id": "STRING_TEXT_TV_DUAL_SCREEN_DISPLAY_GUIDE"
+        }
+      ]
+    },
+    {
+      "id": "bluetooth_settings",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "STRING_TEXT_BT_SETTINGS",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "bluetooth_setting.connection_quality",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupBTConnectQuality",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_RX_CODEC",
+          "desc_res_id": "STRING_TEXT_RX_CODEC_GUIDE",
+          "candidate_title_res_ids": {
+            "sound_quality": "IDMR_TEXT_CODEC_SOUND_QUALITY",
+            "stable_connection": "IDMR_TEXT_CODEC_CONNECTION_AUTO"
+          },
+          "candidate_desc_res_ids": {
+            "sound_quality": "STRING_TEXT_CODEC_CONNECTION_AUTO_GUIDE",
+            "stable_connection": "STRING_TEXT_SOUND_QUALITY_GUIDE"
+          }
+        },
+        {
+          "id": "bluetooth_setting.input_change_guide",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_BT_PLAY",
+          "desc_res_id": ""
+        }
+      ]
+    },
+    {
+      "id": "general_settings",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_COMMON_SETINIFMTMAIN_STRING",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "system_setting.auto_standby",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_SETUP_XMB2_AUTOPOWEROFF_STRING",
+          "desc_res_id": "STRING_TEXT_AUTOPOWEROFF_GUIDE"
+        },
+        {
+          "id": "system_setting.nw_bt_standby",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_SETUP_NWBTSTANDBY_STRING",
+          "desc_res_id": "STRING_TEXT_SETUP_NWSTANDBYGUIDE_GUIDE"
+        },
+        {
+          "id": "system_setting.auto_update",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SETUP_AUTOUPDATE",
+          "desc_res_id": "STRING_TEXT_SETUP_AUTOUPDATE_GUIDE"
+        },
+        {
+          "id": "system_setting.dimmer",
+          "ui_type": "enum_dialog_auto_close",
+          "actionlog_dialog_id": "setupDimmer",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SETUP_DIMMER",
+          "desc_res_id": "",
+          "candidate_title_res_ids": {
+            "bright": "STRING_TEXT_BRIGHT",
+            "dark": "STRING_TEXT_DARK",
+            "off": "STRING_TEXT_LIGHTS_OFF"
+          }
+        },
+        {
+          "id": "system_setting.friendly_name",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_DEVICE_NAME",
+          "desc_res_id": ""
+        },
+        {
+          "id": "system_info",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SYSTEM_INFO",
+          "desc_res_id": ""
+        },
+        {
+          "id": "software_license",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "IDMR_TEXT_SETUP_SOFTWARE_LICENSE_STRING",
+          "desc_res_id": ""
+        }
+      ]
+    },
+    {
+      "id": "network_settings",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_COMMON_SETINIFMTACCE_STRING",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "network_connection_info",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_NETWORK_CONNECTION_INFOMATION",
+          "desc_res_id": "STRING_TEXT_NETWORK_CONNECTION_INFOMATION_GUIDE"
+        },
+        {
+          "id": "account_info.user_list",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_ACCOUNT_LIST",
+          "desc_res_id": "STRING_TEXT_ACCOUNT_LIST_GUIDE"
+        },
+        {
+          "id": "system_setting.external_control",
+          "ui_type": "on_off_switch",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_EXTERNAL_CONTROL",
+          "desc_res_id": "STRING_TEXT_EXTERNAL_CONTROL_GUIDE"
+        },
+        {
+          "id": "device_eula_info",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_DEVICE_EULA_INFORMATION",
+          "desc_res_id": ""
+        }
+      ]
+    },
+    {
+      "id": "easy_initial_setting",
+      "ui_type": "custom",
+      "icon_res_id": "",
+      "title_res_id": "IDMR_TEXT_COMMON_EASYSETTING_STRING",
+      "desc_res_id": ""
+    },
+    {
+      "id": "fw_update.progress",
+      "ui_type": "custom",
+      "icon_res_id": "",
+      "title_res_id": "STRING_UPDATE_TITLE",
+      "desc_res_id": ""
+    },
+    {
+      "id": "audio_function",
+      "ui_type": "directory",
+      "icon_res_id": "",
+      "title_res_id": "STRING_TEXT_HOW_TO_USE_NETWORK_AUDIO_FUNCTION",
+      "desc_res_id": "",
+      "children": [
+        {
+          "id": "ad_360_reality_audio",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_360_REALITY_AUDIO",
+          "desc_res_id": ""
+        },
+        {
+          "id": "how_to_use_spotify_connect",
+          "ui_type": "custom",
+          "icon_res_id": "",
+          "title_res_id": "STRING_TEXT_SPOTIFY_CONNECT",
+          "desc_res_id": ""
+        }
+      ]
+    }
+  ]
+}

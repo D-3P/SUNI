@@ -1,0 +1,75 @@
+{
+  "0x2500": {
+    "refFiles": [
+      "fs44_LogSweep2048x1_16bit_20211201.wav",
+      "Ref_FY24_AE/TVC_L05Jref_20240112_Hv_ir_v32c.wav",
+      "Ref_FY24_AE/FL_L05Jref_20230614_Hv_ir.wav",
+      "Ref_FY24_AE/FR_L05Jref_20230614_Hv_ir.wav",
+      "Ref_FY24_AE/RL_L05Jref_20230614_Hv_ir.wav",
+      "Ref_FY24_AE/RR_L05Jref_20230614_Hv_ir.wav"
+    ],
+    "paramFile": "RaeeParam_FY24_AE.json"
+  },
+  "0x2601": {
+    "refFiles": [
+      "fs44_LogSweep2048x1_16bit_20211201.wav",
+      "Ref_FY24_SF/SF_L05J_FC_ref_Hv_ir.wav",
+      "Ref_FY24_SF/SF2_L05J_1_bass_Hv_ir.wav",
+      "Ref_FY24_SF/RL_L05J_ref_zantei_Hv_ir.wav",
+      "Ref_FY24_SF/RR_L05J_ref_zantei_Hv_ir.wav"
+    ],
+    "paramFile": "RaeeParam_FY24_SF.json"
+  },
+  "0x2602": {
+    "refFiles": [
+      "fs44_LogSweep2048x1_16bit_20211201.wav",
+      "Ref_FY24_SF/SF_L05J_FC_ref_Hv_ir.wav",
+      "Ref_FY24_SF/SF2_L05J_1_bass_Hv_ir.wav",
+      "Ref_FY24_SF/RL_L05J_ref_zantei_Hv_ir.wav",
+      "Ref_FY24_SF/RR_L05J_ref_zantei_Hv_ir.wav"
+    ],
+    "paramFile": "RaeeParam_FY24_SF.json"
+  },
+  "0x2604": {
+    "refFiles": [
+      "fs44_LogSweep2048x1_16bit_20211201.wav",
+      "Ref_FY24_SF/SF_L05J_FC_ref_Hv_ir.wav",
+      "Ref_FY24_SF/SF2_L05J_1_bass_Hv_ir.wav",
+      "Ref_FY24_SF/RL_L05J_ref_zantei_Hv_ir.wav",
+      "Ref_FY24_SF/RR_L05J_ref_zantei_Hv_ir.wav"
+    ],
+    "paramFile": "RaeeParam_FY24_SF.json"
+  },
+  "0x2501": {
+    "refFiles": [
+      "longsweep_44100_AH_v3.wav",
+      "Calib_data.txt",
+      "Calib_data_en.txt",
+      "Ref_FY26_AH/240924_L05G_PosC_Mid_ENBL.wav",
+      "Ref_FY26_AH/240924_L05G_PosC_Mid_ENBR.wav",
+      "Ref_FY26_AH/240924_L05G_PosC_Mid_ENL.wav",
+      "Ref_FY26_AH/240924_L05G_PosC_Mid_ENR.wav",
+      "Ref_FY26_AH/240924_L05G_PosC_Mid_RL.wav",
+      "Ref_FY26_AH/240924_L05G_PosC_Mid_RR.wav",
+      "Ref_FY26_AH/240924_L05G_PosC_Mid_SW.wav",
+      "Ref_FY26_AH/240924_L05G_PosL_Mid_ENBL.wav",
+      "Ref_FY26_AH/240924_L05G_PosL_Mid_ENBR.wav",
+      "Ref_FY26_AH/240924_L05G_PosL_Mid_ENL.wav",
+      "Ref_FY26_AH/240924_L05G_PosL_Mid_ENR.wav",
+      "Ref_FY26_AH/240924_L05G_PosL_Mid_RL.wav",
+      "Ref_FY26_AH/240924_L05G_PosL_Mid_RR.wav",
+      "Ref_FY26_AH/240924_L05G_PosL_Mid_SW.wav",
+      "Ref_FY26_AH/240924_L05G_PosR_Mid_ENBL.wav",
+      "Ref_FY26_AH/240924_L05G_PosR_Mid_ENBR.wav",
+      "Ref_FY26_AH/240924_L05G_PosR_Mid_ENL.wav",
+      "Ref_FY26_AH/240924_L05G_PosR_Mid_ENR.wav",
+      "Ref_FY26_AH/240924_L05G_PosR_Mid_RL.wav",
+      "Ref_FY26_AH/240924_L05G_PosR_Mid_RR.wav",
+      "Ref_FY26_AH/240924_L05G_PosR_Mid_SW.wav",
+      "Ref_FY26_AH/241207_L05G_NA5_PosC_FC.wav",
+      "Ref_FY26_AH/241207_L05G_NA5_PosL_FC.wav",
+      "Ref_FY26_AH/241207_L05G_NA5_PosR_FC.wav"
+    ],
+    "paramFile": "RaeeParam_FY26_AH.json"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "contents": [
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_REAR_CHECK_LEFT_RIGHT",
+      "sub_title_id": "STRING_INSTALL_REAR_CHECK_LEFT_RIGHT_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_roleconfirm_rd3.png"
+    },
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_REAR_CORRECT_PLACEMENT",
+      "sub_title_id": "STRING_INSTALL_REAR_BEHIND_VIEWING_POSITION",
+      "object1_image_file_name": [
+        {
+          "model_ids":["0x2601", "0x2602"],
+          "file_name":"parts_background_avconnection_installguide_living_0x2601.png"
+        },
+        {
+          "model_ids":["0x2604"],
+          "file_name":"parts_background_avconnection_installguide_living_0x2604.png"
+        },
+        {
+          "model_ids": ["0x2501"],
+          "file_name": "parts_background_avconnection_installguide_living_0x2501.png"
+        }
+      ],
+      "object2_image_file_name": "parts_background_avconnection_installguide_living_rear_rd3.png",
+      "object4_image_file_name": "parts_background_avconnection_installguide_rear_label_rectangle.png",
+      "rear_left_speaker_talkback_ids": [
+        "STRING_NAME_REARSPK_LEFT",
+        "STRING_TALKBACK_POSITION_LEFT_BACK_SIDE"
+      ],
+      "rear_right_speaker_talkback_ids": [
+        "STRING_NAME_REARSPK_RIGHT",
+        "STRING_TALKBACK_POSITION_RIGHT_BACK_SIDE"
+      ]
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_ENSPK_INSTALLATION_PRECAUTIONS",
+      "sub_title_id": "STRING_INSTALL_REAR_EN_OUTPUT_SOUND",
+      "object1_image_file_name": "parts_background_avconnection_installguide_not_install_shelf_ceiling_rd3.png"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_INSTALL_REAR_CONNECT_POWERCODE",
+      "sub_title_id": "STRING_INSTALL_INSERTION_PORT_BOTTOM",
+      "video_file_name": "parts_background_avconnection_installguide_rear_powercode_connection_rd3.mp4",
+      "subtitle_talkback_id": "STRING_TALKBACK_INSERTION_PORT_BOTTOM_RECESS"
+    },
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_ORIENTATION_HINT",
+      "sub_title_id": "STRING_INSTALL_REAR_ORIENTATION_DISCRIPTION",
+      "object1_image_file_name": [
+        {
+          "model_ids":["0x2601", "0x2602"],
+          "file_name":"parts_background_avconnection_installguide_living_0x2601.png"
+        },
+        {
+          "model_ids":["0x2604"],
+          "file_name":"parts_background_avconnection_installguide_living_0x2604.png"
+        },
+        {
+          "model_ids": ["0x2501"],
+          "file_name": "parts_background_avconnection_installguide_living_0x2501.png"
+        }
+      ],
+      "object2_image_file_name": "parts_background_avconnection_installguide_living_rear_rd3.png",
+      "object3_image_file_name": "parts_background_avconnection_installguide_rear_wave.png"
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_REAR_HEIGHT_HINT",
+      "sub_title_id": "STRING_INSTALL_REAR_HEIGHT_HINT_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_installation_height_rd3.png"
+    }
+  ]
+}

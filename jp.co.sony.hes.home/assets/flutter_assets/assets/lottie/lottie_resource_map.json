@@ -1,0 +1,238 @@
+{
+  "backgroundDdlParentsBarHtsTv": [
+    {
+      "fileName": "parts_background_ddl_parents_bar_hts_tv",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2604",
+        "0x2501"
+      ],
+      "location": "local"
+    }
+  ],
+  "sfoUsbMicDetected": [
+    {
+      "fileName": "parts_sfo_usb_mic_detected",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRh5Left": [
+    {
+      "fileName": "parts_background_common_living_rh5_left",
+      "models": [
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRh5Right": [
+    {
+      "fileName": "parts_background_common_living_rh5_right",
+      "models": [
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingSwh3": [
+    {
+      "fileName": "parts_background_common_living_swh3",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingSwh5": [
+    {
+      "fileName": "parts_background_common_living_swh5",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "avconnectionInstallguideInstallationAnywhereSwb2": [
+    {
+      "fileName": "parts_avconnection_installguide_installation_anywhere_swb2",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "avconnectionInstallguideInstallationAnywhereSwb3": [
+    {
+      "fileName": "parts_avconnection_installguide_installation_anywhere_swb3",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "avconnectionInstallguideInstallationAnywhereSwg1": [
+    {
+      "fileName": "parts_avconnection_installguide_installation_anywhere_swg1",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "avconnectionInstallguideInstallationAnywhereSwh3": [
+    {
+      "fileName": "parts_avconnection_installguide_installation_anywhere_swh3",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "avconnectionInstallguideInstallationAnywhereSwh5": [
+    {
+      "fileName": "parts_avconnection_installguide_installation_anywhere_swh5",
+      "models": [
+        "0x2500",
+        "0x2601",
+        "0x2602",
+        "0x2501",
+        "0x2604"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundAvconnectionRearLabelR": [
+    {
+      "fileName": "parts_background_avconnection_rear_label_r",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundAvconnectionRearLabelL": [
+    {
+      "fileName": "parts_background_avconnection_rear_label_l",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingGeneralRearLeft": [
+    {
+      "fileName": "parts_background_common_living_general_rear_left",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingGeneralRearRight": [
+    {
+      "fileName": "parts_background_common_living_general_rear_right",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRg2Left": [
+    {
+      "fileName": "parts_background_common_living_rg2_left",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRg2Right": [
+    {
+      "fileName": "parts_background_common_living_rg2_right",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRb2Left": [
+    {
+      "fileName": "parts_background_common_living_rb2_left",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRb2Right": [
+    {
+      "fileName": "parts_background_common_living_rb2_right",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRd3Left": [
+    {
+      "fileName": "parts_background_common_living_rd3_left",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "backgroundCommonLivingRd3Right": [
+    {
+      "fileName": "parts_background_common_living_rd3_right",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ],
+  "iconAvconnectionDualswStatusGreen": [
+    {
+      "fileName": "parts_icon_avconnection_dualsw_status_green",
+      "models": [
+        "0x2501"
+      ],
+      "location": "cloud"
+    }
+  ]
+}

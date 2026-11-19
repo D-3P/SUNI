@@ -1,0 +1,57 @@
+{
+  "contents": [
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_SW_INSTALLATION_ANYWHERE",
+      "sub_title_id": "STRING_INSTALL_SW_INSTALLATION_ANYWHERE_DESCRIPTION",
+      "object1_image_file_name": [
+        {
+          "model_ids":["0x2500"],
+          "file_name":"parts_background_avconnection_installguide_living_0x2500.png"
+        },
+        {
+          "model_ids":["0x2601", "0x2602"],
+          "file_name":"parts_background_avconnection_installguide_living_0x2601.png"
+        },
+        {
+          "model_ids":["0x2604"],
+          "file_name":"parts_background_avconnection_installguide_living_0x2604.png"
+        },
+        {
+          "model_ids": ["0x2501"],
+          "file_name": "parts_background_avconnection_installguide_living_0x2501.png"
+        },
+        {
+          "model_ids": ["0x5100"],
+          "file_name": "parts_background_avconnection_installguide_living_0x5100.png"
+        }
+      ],
+      "object_lottie_file_name":"parts_avconnection_installguide_installation_anywhere_swh3.json"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_INSTALL_SW_NOT_BLOCK_SOUND_OUTPUT_SURFACE",
+      "sub_title_id": "STRING_INSTALL_SW_NOT_BLOCK_SOUND_OUTPUT_SURFACE_DESCRIPTION",
+      "video_file_name": "parts_background_avconnection_installguide_not_block_sound_output_swh3.mp4"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_INSTALL_SW_CONNECT_POWERCODE",
+      "sub_title_id": "STRING_INSTALL_INSERTION_PORT_BOTTOM",
+      "video_file_name": "parts_background_avconnection_installguide_sw_powercode_connection_swh3.mp4",
+      "subtitle_talkback_id": "STRING_TALKBACK_INSERTION_PORT_BOTTOM_RECESS"
+    },
+    {
+      "layout_type": "swipe_default",
+      "title_id": "STRING_INSTALL_SW_CHECK_TOP_BOTTOM",
+      "sub_title_id": "STRING_INSTALL_SW_CHECK_TOP_BOTTOM_DESCRIPTION1",
+      "video_file_name": "parts_background_avconnection_installguide_check_top_bottom_swh3.mp4"
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_SW_NOT_LAY_DOWN",
+      "sub_title_id": "STRING_INSTALL_SW_NOT_LAY_DOWN_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_not_lay_down_swh3.png"
+    }
+  ]
+}

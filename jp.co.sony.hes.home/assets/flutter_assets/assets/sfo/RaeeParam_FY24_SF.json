@@ -1,0 +1,129 @@
+{
+  "raeeVer":  4,
+  "revision":  1,
+  "dbgMode":  "0x00000000",
+  "path":    "",
+  "orgFiles": [
+    "fs44_LogSweep2048x1_16bit_20211201.wav"
+  ],
+  "common": {
+    "naverage":               10,
+    "tf_type":                3,
+    "q_type":                 1,
+    "corr_bpf":               [  5.0, 40.0, 10000.0, 13000.0 ],
+    "tf_bpf":                 [ 20.0, 40.0, 10000.0, 13000.0 ],
+    "snr_th":                 [ -11.0, -11.0, -11.0, -11.0, -11.0, -11.0, -11.0, -11.0],
+    "TGT_GAIN_LEVEL_ADJUST":  3,
+    "PEQ_GAIN_SHIFT":         0.0,
+    "TGT_LR_LIMIT_MODE":      0,
+    "CALC_PEQ_MODE":          2,
+    "PEQ_GAIN_RANGE_CUT":    -15.0,
+    "PEQ_GAIN_RANGE_BOOST":    9.0,
+    "ADJACENT_GAIN_RANGE_CUT":  -5.0,
+    "ADJACENT_GAIN_RANGE_BOOST": 5.0
+  },
+  "groups":[
+    {
+      "label":                "BUILTIN_SW",
+      "refFile":              "SF2_L05J_1_bass_Hv_ir.wav",
+      "PEAK_RELATIVE_TH":     0.0,
+      "ENERGY_INTEG_TIME":    [160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0],
+      "TGT_GAIN_WEIGHT_CUT":  [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+      "TGT_GAIN_WEIGHT_BOOST":[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "TGT_GAIN_RANGE_CUT":   [-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0],
+      "TGT_GAIN_RANGE_BOOST": [ 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0],
+      "PEQ_IGNORE_GAIN":      [ 0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "RAEE_BAND_ENABLE":     [0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+      "label":                "TVC",
+      "refFile":              "SF_L05J_FC_ref_Hv_ir.wav",
+      "PEAK_RELATIVE_TH":     -20.0,
+      "ENERGY_INTEG_TIME":    [160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0],
+      "TGT_GAIN_WEIGHT_CUT":  [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+      "TGT_GAIN_WEIGHT_BOOST":[ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+      "TGT_GAIN_RANGE_CUT":   [-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0],
+      "TGT_GAIN_RANGE_BOOST": [ 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0],
+      "PEQ_IGNORE_GAIN":      [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "RAEE_BAND_ENABLE":     [0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+      "label":                "SEPARATED_SL",
+      "refFile":              "RL_L05J_ref_zantei_Hv_ir.wav",
+      "PEAK_RELATIVE_TH":     0.0,
+      "ENERGY_INTEG_TIME":    [160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0],
+      "TGT_GAIN_WEIGHT_CUT":  [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+      "TGT_GAIN_WEIGHT_BOOST":[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "TGT_GAIN_RANGE_CUT":   [-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0],
+      "TGT_GAIN_RANGE_BOOST": [ 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0],
+      "PEQ_IGNORE_GAIN":      [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "RAEE_BAND_ENABLE":     [0, 0, 0, 0, 0, 0, 0, 0]
+    }, {
+      "label":                "SEPARATED_SR",
+      "refFile":              "RR_L05J_ref_zantei_Hv_ir.wav",
+      "PEAK_RELATIVE_TH":     0.0,
+      "ENERGY_INTEG_TIME":    [160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0, 160.0],
+      "TGT_GAIN_WEIGHT_CUT":  [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+      "TGT_GAIN_WEIGHT_BOOST":[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "TGT_GAIN_RANGE_CUT":   [-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0,-15.0],
+      "TGT_GAIN_RANGE_BOOST": [ 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0],
+      "PEQ_IGNORE_GAIN":      [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "RAEE_BAND_ENABLE":     [0, 0, 0, 0, 0, 0, 0, 0]
+    }
+  ],
+  "configs":[
+    {
+      "labels": ["BUILTIN_SW"],
+      "assignOrg":  [0],
+      "assignGrp":  [0],
+      "orderFront": [0],
+      "orderRear":  [],
+      "limLink": [
+      ],
+      "avrLink": [
+      ],
+      "avrLinkBand": [
+      ]
+    }, {
+      "labels": ["BUILTIN_SW", "TVC"],
+      "assignOrg":  [0, 0],
+      "assignGrp":  [0, 1],
+      "orderFront": [0, 1],
+      "orderRear":  [],
+      "limLink": [
+      ],
+      "avrLink": [
+      ],
+      "avrLinkBand": [
+      ]
+    }, {
+      "labels": ["BUILTIN_SW", "SEPARATED_SL", "SEPARATED_SR"],
+      "assignOrg":  [0, 0, 0],
+      "assignGrp":  [0, 2, 3],
+      "orderFront": [0],
+      "orderRear":  [2, 1],
+      "limLink": [
+        [ 1, 2]
+      ],
+      "avrLink": [
+        [ 1, 2]
+      ],
+      "avrLinkBand": [
+        [1, 1, 1, 1, 1, 1, 1, 1]
+      ]
+    }, {
+      "labels": ["BUILTIN_SW", "TVC", "SEPARATED_SL", "SEPARATED_SR"],
+      "assignOrg":  [0, 0, 0, 0],
+      "assignGrp":  [0, 1, 2, 3],
+      "orderFront": [0, 1],
+      "orderRear":  [3, 2],
+      "limLink": [
+        [ 2, 3]
+      ],
+      "avrLink": [
+        [ 2, 3]
+      ],
+      "avrLinkBand": [
+        [1, 1, 1, 1, 1, 1, 1, 1]
+      ]
+    }
+  ]
+}

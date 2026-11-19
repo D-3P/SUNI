@@ -1,0 +1,49 @@
+{
+  "contents": [
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_REAR_NO_ROLE_HINT",
+      "sub_title_id": "STRING_INSTALL_REAR_NO_ROLE_HINT_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_roleconfirm_0x2901.png"
+    },
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_REAR_CORRECT_PLACEMENT_NO_ROLE",
+      "sub_title_id": "STRING_INSTALL_REAR_BEHIND_VIEWING_POSITION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_living_0x2901.png",
+      "rear_left_speaker_talkback_ids": [
+        "STRING_NAME_REARSPK_LEFT",
+        "STRING_TALKBACK_POSITION_LEFT_BACK_SIDE"
+      ],
+      "rear_right_speaker_talkback_ids": [
+        "STRING_NAME_REARSPK_RIGHT",
+        "STRING_TALKBACK_POSITION_RIGHT_BACK_SIDE"
+      ]
+    },
+    {
+      "layout_type": "swipe_custom3",
+      "title_id": "STRING_INSTALL_ORIENTATION_HINT",
+      "sub_title_id": "STRING_INSTALL_REAR_ORIENTATION_DISCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_living_0x2901.png",
+      "object3_image_file_name": "parts_background_avconnection_installguide_rear_wave.png"
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_REAR_HEIGHT_HINT",
+      "sub_title_id": "STRING_INSTALL_REAR_HEIGHT_HINT_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_installation_height_0x2901.png"
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_REAR_CONNECT_REAR_L_SW",
+      "sub_title_id": "STRING_INSTALL_REAR_CONNECT_REAR_L_SW_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_rear_l_speaker_connection_0x2901.png"
+    },
+    {
+      "layout_type": "swipe_custom2",
+      "title_id": "STRING_INSTALL_REAR_CONNECT_REAR_R_SW",
+      "sub_title_id": "STRING_INSTALL_REAR_CONNECT_REAR_R_DESCRIPTION",
+      "object1_image_file_name": "parts_background_avconnection_installguide_rear_r_speaker_connection_0x2901.png"
+    }
+  ]
+}
