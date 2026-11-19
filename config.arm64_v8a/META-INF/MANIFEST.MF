@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA1-Digest: 8QYA6h0Qti/jm8xtmzxQFZ3+Q2k=
+
+Name: lib/arm64-v8a/libSGPSCore.so
+SHA1-Digest: YstgJOABMxjJDmiW39Eayj4579c=
+
+Name: lib/arm64-v8a/libSGPSWrapper.so
+SHA1-Digest: EOWpkTeM+mrTXDmpakzwN8twxF4=
+
+Name: lib/arm64-v8a/libapp.so
+SHA1-Digest: l5dn4oZ6/jfS+21bIXZq85Il9B0=
+
+Name: lib/arm64-v8a/libdartjni.so
+SHA1-Digest: qAXKQAwub/bONAO3b4Q7TFN5nIc=
+
+Name: lib/arm64-v8a/libdatastore_shared_counter.so
+SHA1-Digest: CV4WlQQMDBlkJLNYR0xKgZjKOsk=
+
+Name: lib/arm64-v8a/libflutter.so
+SHA1-Digest: 2FaE6EVFI5KI2uyu1XWs9JlptOE=
+
+Name: lib/arm64-v8a/liblibraee.so
+SHA1-Digest: V/Iuuy5iFH8OEYfRIsbwamsaUkg=
+
+Name: lib/arm64-v8a/libonnxruntime.so
+SHA1-Digest: atfHj729jtpwKJVNp04nsfDzErk=
+
+Name: stamp-cert-sha256
+SHA1-Digest: 5vTkm69vqAbusD/fho7oWwc7j+I=
+

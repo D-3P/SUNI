@@ -1,0 +1,35 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: i7I0dw3XzzMjkfzQe03zprYyfq0=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: ih5fXOvxTe9tDYI4itFB6pFxEz0=
+
+Name: lib/arm64-v8a/libSGPSCore.so
+SHA1-Digest: UKoHolSuNt11IwtGWv8ShFQLr0c=
+
+Name: lib/arm64-v8a/libSGPSWrapper.so
+SHA1-Digest: Zdra8bUrRQgP9Uog5rnql2fsLaY=
+
+Name: lib/arm64-v8a/libapp.so
+SHA1-Digest: 6ynIJb91wxZTFZQe6ecNlLwkqDE=
+
+Name: lib/arm64-v8a/libdartjni.so
+SHA1-Digest: AouCjT3q+ly6RMcGFzx6OqAY0Y0=
+
+Name: lib/arm64-v8a/libdatastore_shared_counter.so
+SHA1-Digest: 2QroeYLrBWw5bbYB9vLjZMnYZKg=
+
+Name: lib/arm64-v8a/libflutter.so
+SHA1-Digest: G0prIbLeAxHFTT8cFr70TQNb2Ck=
+
+Name: lib/arm64-v8a/liblibraee.so
+SHA1-Digest: cXKQ19nzrRJy/p2FuhqsoBx6+Ck=
+
+Name: lib/arm64-v8a/libonnxruntime.so
+SHA1-Digest: EAC86fDIH7tL+KSaWUucoTq/RqQ=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+
